@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/osman-camp.unity
+  isLoaded: 1
+  isActive: 1
