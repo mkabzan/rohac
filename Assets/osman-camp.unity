@@ -1839,7 +1839,7 @@ MonoBehaviour:
       - useVariable: 1
         name: View Angle
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: 45
       intVariables: []
@@ -3543,7 +3543,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.38235295, g: 0.2910847, b: 0.042171277, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
