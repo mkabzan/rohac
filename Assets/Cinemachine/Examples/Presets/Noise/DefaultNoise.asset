@@ -12,5 +12,49 @@ MonoBehaviour:
   m_Name: DefaultNoise
   m_EditorClassIdentifier: 
   m_Position: []
-  m_Orientation: []
-  
+  m_Orientation:
+  - X:
+      Amplitude: 7.26
+      Frequency: 3.65
+    Y:
+      Amplitude: 2.71
+      Frequency: 5.41
+    Z:
+      Amplitude: 0
+      Frequency: 0
+  - X:
+      Amplitude: 0
+      Frequency: 0
+    Y:
+      Amplitude: 0
+      Frequency: 0
+    Z:
+      Amplitude: 0
+      Frequency: 0
+  - X:
+      Amplitude: 0
+      Frequency: 0
+    Y:
+      Amplitude: 0
+      Frequency: 0
+    Z:
+      Amplitude: 0
+      Frequency: 0
+  - X:
+      Amplitude: 0
+      Frequency: 0
+    Y:
+      Amplitude: 0
+      Frequency: 0
+    Z:
+      Amplitude: 0
+      Frequency: 0
+  - X:
+      Amplitude: 0
+      Frequency: 0
+    Y:
+      Amplitude: 0
+      Frequency: 0
+    Z:
+      Amplitude: 0
+      Frequency: 0
