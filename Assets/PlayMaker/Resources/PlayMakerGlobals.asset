@@ -33,3 +33,4 @@ MonoBehaviour:
   events:
   - dragable
   - nondragable
+  - dead
