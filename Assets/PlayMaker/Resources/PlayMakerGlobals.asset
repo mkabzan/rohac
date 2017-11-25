@@ -30,4 +30,6 @@ MonoBehaviour:
     categories:
     - 
     variableCategoryIDs: 
-  events: []
+  events:
+  - dragable
+  - nondragable
