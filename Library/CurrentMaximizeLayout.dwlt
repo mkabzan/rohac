@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 1474
+  controlID: 9
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,9 +159,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 87.1, y: 2, z: 235.8}
+    m_Target: {x: 204, y: -26.984375, z: 83.66211}
     speed: 2
-    m_Value: {x: 87.1, y: 2, z: 235.8}
+    m_Value: {x: 204, y: -26.984375, z: 83.66211}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -184,20 +184,20 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.08108894, y: 0.764043, z: -0.09794364, w: 0.63251954}
+    m_Target: {x: 0.2948483, y: 0.5372075, z: -0.20774171, w: 0.7624417}
     speed: 2
-    m_Value: {x: 0.08108849, y: 0.7640388, z: -0.097943105, w: 0.6325161}
+    m_Value: {x: 0.29484808, y: 0.5372071, z: -0.20774156, w: 0.76244116}
   m_Size:
-    m_Target: 59.5185
+    m_Target: 38.497684
     speed: 2
-    m_Value: 59.5185
+    m_Value: 38.497684
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.29714754, y: 0.3906129, z: -0.1348425, w: 0.86078125}
-  m_LastSceneViewOrtho: 0
+  m_LastSceneViewRotation: {x: 0.1336534, y: 0.47495082, z: -0.07323582, w: 0.8667151}
+  m_LastSceneViewOrtho: 1
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
