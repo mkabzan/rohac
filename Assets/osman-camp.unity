@@ -3239,7 +3239,7 @@ Transform:
   - {fileID: 1583773729}
   - {fileID: 803771208}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &126986632
 GameObject:
@@ -7246,21 +7246,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -7276,9 +7264,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -7399,8 +7399,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 195352360}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 178.7, y: 2, z: 81.6}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.087967, y: 20.749466, z: -111.5315}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 2023299911}
@@ -7408,8 +7408,8 @@ Transform:
   - {fileID: 1428790109}
   - {fileID: 814913335}
   - {fileID: 1279804868}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &195352369
 MonoBehaviour:
@@ -7739,7 +7739,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -10599,7 +10599,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -10789,7 +10789,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -10816,7 +10816,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -11698,21 +11698,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -11728,9 +11716,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -11852,7 +11852,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 200371810}
   m_LocalRotation: {x: -0, y: 0.058870837, z: -0, w: 0.9982656}
-  m_LocalPosition: {x: 348.36, y: 1.9841127, z: 72.96}
+  m_LocalPosition: {x: 143.57202, y: 20.733578, z: -120.1715}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1333229149}
@@ -11860,8 +11860,8 @@ Transform:
   - {fileID: 1248383175}
   - {fileID: 1256863112}
   - {fileID: 1087832037}
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 6.75, z: 0}
 --- !u!1 &202596521
 GameObject:
@@ -14836,7 +14836,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -15026,7 +15026,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -15053,7 +15053,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -16257,21 +16257,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -16287,9 +16275,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -16410,8 +16410,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 289930795}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 334, y: 2, z: 234.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 129.21204, y: 20.749466, z: 41.168503}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 413270229}
@@ -16419,8 +16419,8 @@ Transform:
   - {fileID: 900874876}
   - {fileID: 455754132}
   - {fileID: 349136529}
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308911412
 GameObject:
@@ -20986,7 +20986,7 @@ Transform:
   - {fileID: 1572311085}
   - {fileID: 169669354}
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &349136528
 GameObject:
@@ -25650,7 +25650,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -25840,7 +25840,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -25867,7 +25867,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -26749,21 +26749,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -26779,9 +26767,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -26902,8 +26902,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 430086380}
-  m_LocalRotation: {x: 0, y: -0.86602545, z: 0, w: 0.49999994}
-  m_LocalPosition: {x: 355.27, y: 2, z: 159.15}
+  m_LocalRotation: {x: -0, y: -0.86602545, z: -0, w: 0.49999994}
+  m_LocalPosition: {x: 150.48203, y: 20.749466, z: -33.981506}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 485001103}
@@ -26911,8 +26911,8 @@ Transform:
   - {fileID: 1250087048}
   - {fileID: 1198151039}
   - {fileID: 1756307752}
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -120, z: 0}
 --- !u!1 &430546690
 GameObject:
@@ -33965,7 +33965,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -34155,7 +34155,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -34182,7 +34182,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -35064,21 +35064,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -35094,9 +35082,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -35218,7 +35218,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 508754612}
   m_LocalRotation: {x: -0, y: -0.8125923, z: -0, w: 0.5828325}
-  m_LocalPosition: {x: 317.15, y: 1.9841127, z: 81.29}
+  m_LocalPosition: {x: 112.36203, y: 20.733578, z: -111.8415}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1104813812}
@@ -35226,8 +35226,8 @@ Transform:
   - {fileID: 1791139937}
   - {fileID: 1665954280}
   - {fileID: 1492812232}
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -108.7, z: 0}
 --- !u!1 &525488543
 GameObject:
@@ -36472,7 +36472,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -36662,7 +36662,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -36689,7 +36689,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -37725,7 +37725,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 622149150}
   m_LocalRotation: {x: 0, y: 0.9588198, z: -0, w: -0.28401524}
-  m_LocalPosition: {x: 170.72, y: 2, z: 184.77}
+  m_LocalPosition: {x: -34.067963, y: 20.749466, z: -8.361496}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1854402038}
@@ -37733,8 +37733,8 @@ Transform:
   - {fileID: 525488544}
   - {fileID: 322660393}
   - {fileID: 1279272563}
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 213, z: 0}
 --- !u!1 &637199118
 GameObject:
@@ -40105,7 +40105,7 @@ Transform:
   - {fileID: 577510273}
   - {fileID: 1430973307}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654955182
 GameObject:
@@ -40139,7 +40139,7 @@ Transform:
   - {fileID: 40926512}
   - {fileID: 1592681476}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &660140107
 GameObject:
@@ -40744,7 +40744,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -40934,7 +40934,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -40961,7 +40961,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -42762,8 +42762,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 671919617}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 232.96, y: 2, z: 208.18}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 28.172043, y: 20.749466, z: 15.048492}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1170629725}
@@ -42771,8 +42771,8 @@ Transform:
   - {fileID: 61374427}
   - {fileID: 1310305471}
   - {fileID: 639162086}
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676653013
 GameObject:
@@ -42914,7 +42914,7 @@ Transform:
   - {fileID: 1478239939}
   - {fileID: 1922651844}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705192735
 GameObject:
@@ -52994,7 +52994,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -53184,7 +53184,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -53211,7 +53211,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -54093,21 +54093,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -54123,9 +54111,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -54247,7 +54247,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 797367576}
   m_LocalRotation: {x: -0, y: 0.058870837, z: -0, w: 0.9982656}
-  m_LocalPosition: {x: 312.22, y: 1.9841127, z: 74.54}
+  m_LocalPosition: {x: 107.43204, y: 20.733578, z: -118.5915}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 383341860}
@@ -54255,8 +54255,8 @@ Transform:
   - {fileID: 1115635274}
   - {fileID: 1527273006}
   - {fileID: 1251125426}
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 6.75, z: 0}
 --- !u!1 &803771207
 GameObject:
@@ -57987,21 +57987,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -58017,9 +58005,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -58140,8 +58140,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 877687374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 218.3, y: 2, z: 148.69}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.512039, y: 20.749466, z: -44.441498}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 947631277}
@@ -58149,8 +58149,8 @@ Transform:
   - {fileID: 252605698}
   - {fileID: 397021240}
   - {fileID: 1407975444}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &877687383
 MonoBehaviour:
@@ -58480,7 +58480,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -58670,7 +58670,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -58697,7 +58697,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -61480,7 +61480,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -61670,7 +61670,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -61697,7 +61697,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -62579,21 +62579,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -62609,9 +62597,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -62733,7 +62733,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 943376861}
   m_LocalRotation: {x: 0, y: 0.9528735, z: -0, w: -0.30336785}
-  m_LocalPosition: {x: 112.4, y: 2, z: 197.9}
+  m_LocalPosition: {x: -92.38796, y: 20.749466, z: 4.7684937}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1461616695}
@@ -62741,8 +62741,8 @@ Transform:
   - {fileID: 430546691}
   - {fileID: 1999881241}
   - {fileID: 1303495261}
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 215.32, z: 0}
 --- !u!1 &947631276
 GameObject:
@@ -73803,7 +73803,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -73993,7 +73993,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -74020,7 +74020,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -86569,7 +86569,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -86759,7 +86759,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -86786,7 +86786,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -87668,21 +87668,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -87698,9 +87686,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -87821,8 +87821,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233607557}
-  m_LocalRotation: {x: 0, y: 0.89489543, z: 0, w: 0.44627598}
-  m_LocalPosition: {x: 344.42, y: 2, z: 83.19}
+  m_LocalRotation: {x: -0, y: 0.89489543, z: -0, w: 0.44627598}
+  m_LocalPosition: {x: 139.63205, y: 20.749466, z: -109.9415}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1381632324}
@@ -87830,8 +87830,8 @@ Transform:
   - {fileID: 1592374077}
   - {fileID: 759271011}
   - {fileID: 1580731731}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 126.99, z: 0}
 --- !u!1 &1247413905
 GameObject:
@@ -99765,7 +99765,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -99955,7 +99955,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -99982,7 +99982,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -100864,21 +100864,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -100894,9 +100882,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -101017,8 +101017,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1384806984}
-  m_LocalRotation: {x: 0, y: -0.86602545, z: 0, w: 0.49999994}
-  m_LocalPosition: {x: 345.7, y: 2, z: 239.7}
+  m_LocalRotation: {x: -0, y: -0.86602545, z: -0, w: 0.49999994}
+  m_LocalPosition: {x: 140.91205, y: 20.749466, z: 46.568497}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 459644760}
@@ -101026,8 +101026,8 @@ Transform:
   - {fileID: 1945030260}
   - {fileID: 1916248648}
   - {fileID: 1021552607}
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -120, z: 0}
 --- !u!1 &1401746313
 GameObject:
@@ -106409,7 +106409,7 @@ Transform:
   - {fileID: 676653014}
   - {fileID: 272860241}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1505377909
 GameObject:
@@ -111996,8 +111996,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610327456}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 181.9, y: 2, z: 48.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.88797, y: 20.749466, z: -144.8315}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 323290420}
@@ -112005,8 +112005,8 @@ Transform:
   - {fileID: 102676703}
   - {fileID: 1844348827}
   - {fileID: 478917063}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1610327463
 MonoBehaviour:
@@ -114389,7 +114389,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - dead
-        byteData: 010000000001000001000000010000000000
+        byteData: 000000000001000000000000010000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -114618,7 +114618,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -114645,7 +114645,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -114914,7 +114914,7 @@ Transform:
   - {fileID: 1468631097}
   - {fileID: 1872987184}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1706744411
 GameObject:
@@ -115267,7 +115267,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -115457,7 +115457,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -115484,7 +115484,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -116688,21 +116688,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -116718,9 +116706,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -116841,8 +116841,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1706744411}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 359.4, y: 2, z: 170.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 154.61203, y: 20.749466, z: -22.6315}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 709916982}
@@ -116850,8 +116850,8 @@ Transform:
   - {fileID: 1793154844}
   - {fileID: 1505377910}
   - {fileID: 793294687}
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1719749789
 GameObject:
@@ -117459,7 +117459,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -118711,8 +118711,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1755922015}
-  m_LocalRotation: {x: 0, y: -0.43837118, z: 0, w: 0.89879405}
-  m_LocalPosition: {x: 106, y: 2, z: 163.5}
+  m_LocalRotation: {x: -0, y: -0.43837118, z: -0, w: 0.89879405}
+  m_LocalPosition: {x: -98.787964, y: 20.749466, z: -29.6315}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 434099215}
@@ -118720,8 +118720,8 @@ Transform:
   - {fileID: 1230663137}
   - {fileID: 1755377006}
   - {fileID: 1019565422}
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -52, z: 0}
 --- !u!1 &1756307751
 GameObject:
@@ -119186,7 +119186,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -119376,7 +119376,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -119403,7 +119403,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -120607,21 +120607,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -120637,9 +120625,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -120760,8 +120760,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1764441233}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 171.6, y: 2, z: 198.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.187958, y: 20.749466, z: 5.3684998}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1535566736}
@@ -120769,8 +120769,8 @@ Transform:
   - {fileID: 1732802668}
   - {fileID: 1471617465}
   - {fileID: 912316841}
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777662952
 GameObject:
@@ -131767,8 +131767,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1995521995}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 173.5, y: 2, z: 138.8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.287964, y: 20.749466, z: -54.331497}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 77048228}
@@ -131776,8 +131776,8 @@ Transform:
   - {fileID: 2078789236}
   - {fileID: 1268035437}
   - {fileID: 1384000773}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1995522004
 MonoBehaviour:
@@ -132107,7 +132107,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -132297,7 +132297,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -132324,7 +132324,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -137597,7 +137597,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -137787,7 +137787,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -137814,7 +137814,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -138696,21 +138696,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -138726,9 +138714,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -138849,8 +138849,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2080302769}
-  m_LocalRotation: {x: 0, y: 0.89489543, z: 0, w: 0.44627598}
-  m_LocalPosition: {x: 308.7, y: 2, z: 82.22}
+  m_LocalRotation: {x: -0, y: 0.89489543, z: -0, w: 0.44627598}
+  m_LocalPosition: {x: 103.91205, y: 20.749466, z: -110.9115}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 2005312693}
@@ -138858,9 +138858,56 @@ Transform:
   - {fileID: 79493895}
   - {fileID: 150687687}
   - {fileID: 2001023215}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 126.99, z: 0}
+--- !u!1 &2100754532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2100754533}
+  m_Layer: 0
+  m_Name: Guards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100754533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100754532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 204.78796, y: -18.749466, z: 193.1315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1610327462}
+  - {fileID: 1995522003}
+  - {fileID: 195352368}
+  - {fileID: 877687382}
+  - {fileID: 2080302778}
+  - {fileID: 508754621}
+  - {fileID: 797367585}
+  - {fileID: 1233607566}
+  - {fileID: 200371819}
+  - {fileID: 671919626}
+  - {fileID: 430086389}
+  - {fileID: 1706744420}
+  - {fileID: 1384806993}
+  - {fileID: 289930804}
+  - {fileID: 1764441242}
+  - {fileID: 2131372316}
+  - {fileID: 622149159}
+  - {fileID: 943376870}
+  - {fileID: 1755922024}
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104688282
 GameObject:
   m_ObjectHideFlags: 0
@@ -139983,7 +140030,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0100000000010000010000000100000000
+        byteData: 0000000000010000000000000100000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -140173,7 +140220,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -140200,7 +140247,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
@@ -141082,21 +141129,9 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: In the Cone
+        name: DeadGuard Visible
         tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player Visible
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: 0
-      - useVariable: 1
-        name: Player in Range
-        tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: 0
       - useVariable: 1
@@ -141112,9 +141147,21 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
-        name: DeadGuard Visible
+        name: In the Cone
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player Visible
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Player in Range
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
       stringVariables: []
@@ -141235,8 +141282,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2131372307}
-  m_LocalRotation: {x: 0, y: 0.9186534, z: 0, w: 0.39506453}
-  m_LocalPosition: {x: 218.6, y: 2, z: 176.2}
+  m_LocalRotation: {x: -0, y: 0.9186534, z: -0, w: 0.39506453}
+  m_LocalPosition: {x: 13.812042, y: 20.749466, z: -16.931503}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 1294318252}
@@ -141244,8 +141291,8 @@ Transform:
   - {fileID: 1430275978}
   - {fileID: 2074917727}
   - {fileID: 1640499630}
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 2100754533}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 133.46, z: 0}
 --- !u!1 &2146081797
 GameObject:
