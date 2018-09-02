@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rohac", "Assembly-CSharp.csproj", "{EB7EA54F-97E0-AEAF-6627-A5EE1C0AE6C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{EB7EA54F-97E0-AEAF-6627-A5EE1C0AE6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rohac", "Assembly-CSharp-Editor.csproj", "{D22D1847-EB76-366E-EB05-1C817FF6CE53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D22D1847-EB76-366E-EB05-1C817FF6CE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rohac", "Tests.csproj", "{37B3DB32-6CCA-D8AB-82CF-73CCC91D7A29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{37B3DB32-6CCA-D8AB-82CF-73CCC91D7A29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
