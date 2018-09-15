@@ -73,6 +73,7 @@
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\DynamicVisionConeFov.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\SetEnemyFov3d.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\SetEnemyFov3dByTag.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\GameObject\GetDistance2.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Input\CustomMousePick.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Input\MousePickEventCustom.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\BoxCast.cs" />
