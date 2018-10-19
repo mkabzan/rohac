@@ -71,6 +71,7 @@
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawLine.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawSpline.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\DynamicVisionConeFov.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\FOV\DynamicVisionConeFov2D.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\SetEnemyFov3d.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\SetEnemyFov3dByTag.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\GameObject\GetDistance2.cs" />
