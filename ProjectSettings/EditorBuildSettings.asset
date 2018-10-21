@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/osman-camp.unity
+    guid: 5d86ffe7c61c7fa49bb9913bfeb830bc
+  m_configObjects: {}
