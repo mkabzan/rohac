@@ -14,20 +14,26 @@ MonoBehaviour:
   variables:
     floatVariables: []
     intVariables: []
-    boolVariables:
-    - useVariable: 1
-      name: CurrentlyLookingFor
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
+    boolVariables: []
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
-    gameObjectVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: Event Zones
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 1125603620203452, guid: e4465cc01111dd14ea2d88247323a68e, type: 2}
+    - useVariable: 1
+      name: Player
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables: []
     materialVariables: []
     textureVariables: []
@@ -35,7 +41,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - dragable
   - nondragable

@@ -3139,7 +3139,7 @@ MonoBehaviour:
             typeName: UnityEngine.Object
             value: {fileID: 0}
           TargetTypeName: UnityEngine.AI.NavMeshAgent
-          PropertyName: speed
+          PropertyName: 
           BoolParameter:
             useVariable: 0
             name: 
@@ -3148,8 +3148,8 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           FloatParameter:
-            useVariable: 1
-            name: Speed
+            useVariable: 0
+            name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3214,7 +3214,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            typeName: System.Single
+            typeName: 
             value: {fileID: 0}
           MaterialParameter:
             useVariable: 0
@@ -3245,7 +3245,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            enumName: HutongGames.PlayMaker.None
+            enumName: 
             intValue: 0
           ArrayParameter:
             useVariable: 0
@@ -3254,7 +3254,7 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             type: -1
-            objectTypeName: UnityEngine.Object
+            objectTypeName: 
             floatValues: []
             intValues: 
             boolValues: 
