@@ -6602,12 +6602,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: StartingPatrolRotation
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -52
+          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -6633,13 +6633,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -6651,13 +6651,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Range
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Sights
           tooltip: 
@@ -6681,13 +6681,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -6864,7 +6864,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 17.80893
         - useVariable: 0
           name: 
           tooltip: 
@@ -7303,7 +7303,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 16.740671
         - useVariable: 0
           name: 
           tooltip: 
@@ -7335,13 +7335,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -7353,13 +7353,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Range
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Sights
           tooltip: 
@@ -7389,13 +7389,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -7624,13 +7624,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -7642,13 +7642,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Range
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Sights
           tooltip: 
@@ -7678,13 +7678,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -7914,7 +7914,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 150.67743
         - useVariable: 0
           name: 
           tooltip: 
@@ -7938,7 +7938,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 16.740671
         - useVariable: 0
           name: 
           tooltip: 
@@ -7958,13 +7958,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: Target in Sights
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: 
           tooltip: 
@@ -7976,13 +7976,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Range
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 1
           name: DeadGuard in Sights
           tooltip: 
@@ -8233,6 +8233,12 @@ MonoBehaviour:
         networkSync: 0
         value: 0
       - useVariable: 1
+        name: StartingPatrolRotation
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
         name: remaining distance
         tooltip: 
         showInInspector: 0
@@ -8320,7 +8326,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -8330,7 +8336,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8357,7 +8363,7 @@ MonoBehaviour:
     handleJointBreak2D: 0
     handleOnGUI: 0
     handleFixedUpdate: 0
-    handleLateUpdate: 1
+    handleLateUpdate: 0
     handleApplicationEvents: 0
     handleUiEvents: 0
     handleLegacyNetworking: 0

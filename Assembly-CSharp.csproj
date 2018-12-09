@@ -165,6 +165,8 @@
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Screen\ScreenSetResolution.cs" />
     <Compile Include="Assets\PlayMaker ArrayMaker\Addons\Unity\Text\SplitTextToArrayList.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\__Internal\FsmStateActionAdvanced.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Audio\SetAudioLoopTime.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Audio\SetAudioStartTime.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Debug\DebugDrawArrow.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawCurve.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawLine.cs" />
@@ -175,11 +177,32 @@
     <Compile Include="Assets\PlayMaker Custom Actions\FOV\SetEnemyFov3dByTag.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\GameObject\BillBoard.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\GameObject\GetDistance2.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\GUI\DisableGuiButtonHighlightState.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\GUI\EnableGuiButtonHighlightState.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Input\CustomMousePick.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Input\MousePickEventCustom.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\lineRenderer\setLineRendererGradient.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\lineRenderer\setLineRendererTextureMode.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Logic 1\IntRangeSwitch.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Logic\BoolAnyFalse.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Materials\createMaterial.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Materials\startEnviromentUpdate.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Math\KnockbackActionItween.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Math\randomFloatExclusion.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Math\simpleLoopCounter.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\navmesh agent\AgentQuickStop.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\navmesh agent\calculateAgentDistanceByCorners.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\navmesh agent\debugAgentPath.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\navmesh agent\enableNavmeshAgent.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\BoxCast.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Physics\RaycastAdvanced.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\projectiles\CalculateProjectileThrowSpeed.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\projectiles\DirectionBetweenGameobjects.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\projectiles\DirectionBetweenVector3.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\projectiles\ProjectileForceApply.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Shaders\setMaterialProperyBlocksColor.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Shaders\setMaterialProperyBlocksColorLerp.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\String\SetStringCase.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\uGui\uGuiImageSetSprite.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Web\WWWObjectRelative.cs" />
     <Compile Include="Assets\PlayMaker DataMaker\_internal_\DataMakerCore.cs" />
@@ -1337,19 +1360,8 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
-    <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
-    <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
     <None Include="Assets\PlayMaker\Templates\readme.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\PlayMaker\Readme.txt" />
@@ -1357,7 +1369,6 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
@@ -1365,52 +1376,39 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\DATA\guardians.xml" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ReferenceUnlit.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\PlayMaker ArrayMaker\readme.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\PlayMaker Custom Actions\Shaders\PropertyBlocks.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
     <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\README.txt" />
-    <None Include="Assets\ProCore\ProBuilder\About\ThirdPartyLicenses.txt" />
     <None Include="Assets\MultiTags\DocumentationReadMe.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_FacePicker.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\ProCore\ProBuilder\About\Font\SIL Open Font License.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-    <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\PlayMaker\Actions\timeline-playmaker-master\test.txt" />
     <None Include="Assets\PlayMaker Utils\External Libraries\Rotorz\Reorderable List Field\LICENSE.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\ProCore\ProBuilder\Shader\pb_ScrollHighlight.shader" />
-    <None Include="Assets\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\PlayMaker\Versions\readme.txt" />
@@ -1645,21 +1643,6 @@
     </Reference>
     <Reference Include="PlayMaker">
       <HintPath>C:/rohac/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>C:/rohac/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>C:/rohac/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
-    </Reference>
-    <Reference Include="KdTreeLib">
-      <HintPath>C:/rohac/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
-    </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>C:/rohac/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
-    </Reference>
-    <Reference Include="Poly2Tri">
-      <HintPath>C:/rohac/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/kabza/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
