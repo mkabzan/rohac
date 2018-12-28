@@ -167,6 +167,7 @@
     <Compile Include="Assets\PlayMaker Custom Actions\__Internal\FsmStateActionAdvanced.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Audio\SetAudioLoopTime.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Audio\SetAudioStartTime.cs" />
+    <Compile Include="Assets\PlayMaker Custom Actions\Convert\ConvertVector3ToString.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Debug\DebugDrawArrow.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawCurve.cs" />
     <Compile Include="Assets\PlayMaker Custom Actions\Effects\DrawLine.cs" />

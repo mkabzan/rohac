@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <root>
   <guards>
-    <item type="Turecek" position="vector3(50,0,150)" name="Guard 1" rotation="90"></item>
-    <item type="Turecek" position="vector3(118,0,94)" name="Guard 2" rotation="70"></item>
+    <item type="Turecek" position="vector3(50,0,150)" name="Guard 1" rotation="90">
+    </item>
+    <item type="Turecek" position="vector3(118,0,94)" name="Guard 2" rotation="70">
+    </item>    
   </guards>
 </root>
