@@ -1,8 +1,12 @@
 <root>
   <guards>
-    <item type="Turecek" position="vector3(50,0,150)" name="Guard 1" rotation="90">
+    <item id="0" type="Turecek" position="vector3(180,0,47)" name="Guard 1" rotation="90">
+      <waypoints>        
+        <waypoint position="vector3(249,0,49)"></waypoint>
+        <waypoint position="vector3(180,0,47)"></waypoint>
+      </waypoints>
     </item>
-    <item type="Turecek" position="vector3(118,0,94)" name="Guard 2" rotation="70">
+    <item id="1" type="Turecek" position="vector3(118,0,94)" name="Guard 2" rotation="70">      
     </item>    
   </guards>
 </root>
